@@ -7,7 +7,7 @@ class QuizHandler
 {
     // the maps are for the sf::Color attributes used in displaying the band colors
     std::map<int, sf::Color> itocol_map = {{0, sf::Color::Black}, {1, sf::Color{139, 69, 19}}, {2, sf::Color::Red}, {3, sf::Color{240, 128, 0}}, {4, sf::Color::Yellow}, {5, sf::Color::Green}, {6, sf::Color::Blue}, {7, sf::Color{127, 0, 255}}, {8, {128, 128, 128}}, {9, sf::Color::White}};
-    std::map<int, sf::Color> itotolcol_map = {{0, sf::Color{192, 192, 192}}, {1, sf::Color{255, 215, 0}}};
+    std::map<int, sf::Color> itotolcol_map = {{0, sf::Color{255, 215, 0}}, {1, sf::Color{192, 192, 192}}};
     unsigned int tol_array[2] = {5, 10};
 
     // tolerance is the randomly-generated tol_array index value
