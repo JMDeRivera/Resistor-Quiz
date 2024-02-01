@@ -171,6 +171,7 @@ int main()
         window.draw(tolerance_band);
         window.display();
 
+        // this generates new res values and refreshes displayed bands
         if (to_enter_res && print_res_prompt && !quiz.stop_program)
         {
             quiz.generate_rand();
